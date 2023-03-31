@@ -1,5 +1,5 @@
 body{
-    background: url(../imagens/icone.png);
+    background: url(imagens/icone.png);
 
 }
 img {
@@ -85,21 +85,21 @@ article{
     margin-top: 80px;
 }
 ul li#insta{
-	background: url(../imagens/icone-insta.png);
+	background: url(imagens/icone-insta.png);
 	width: 100px;
 	height: 100px;
 	background-position: 50% 50%;
 	background-size: 100px;
 }
 ul li#face{
-	background: url(../imagens/icone-face.png);
+	background: url(imagens/icone-face.png);
 	width: 100px;
 	height: 100px;
 	background-position: 50% 50%;
 	background-size: 100px;
 }
 ul li#you{
-	background: url(../imagens/icone-you.png);
+	background: url(imagens/icone-you.png);
 	width: 100px;
 	height: 100px;
 	background-position: 50% 50%;
