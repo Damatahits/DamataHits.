@@ -105,6 +105,13 @@ ul li#you{
 	background-position: 50% 50%;
 	background-size: 100px;
 }
+ul li#spot{
+background: url(../imagens/icone-spot.png);
+width: 100px;
+height: 100px;
+background-position: 50% 50%;
+background-size: 100px;
+}
 ul span {
 	opacity: 0;
 }
