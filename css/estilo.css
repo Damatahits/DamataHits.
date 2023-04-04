@@ -6,6 +6,11 @@ img {
     width: 890px;
     height: 350px;
 }
+img#foto-contato{
+	width: 350px;
+	height: 420px;
+	float: right;
+}
 footer#rodape {
 	clear: both;
 	border-top: 1px solid #606060;
@@ -40,7 +45,7 @@ nav#menu ul {
 	text-transform: uppercase;
 	position: absolute;
 	top: -10px;
-	left: 400px;
+	left: 340px;
     border-bottom: 1px solid black;
     border-bottom: ;
 }
@@ -85,32 +90,39 @@ article{
     margin-top: 80px;
 }
 ul li#insta{
-	background: url(../imagens/icone-insta.png);
+	background: url(../imagens/icone-insta.png) no-repeat;
 	width: 100px;
 	height: 100px;
 	background-position: 50% 50%;
 	background-size: 100px;
+	padding: 10px;
+	
 }
 ul li#face{
-	background: url(../imagens/icone-face.png);
+	background: url(../imagens/icone-face.png) no-repeat;
 	width: 100px;
 	height: 100px;
 	background-position: 50% 50%;
 	background-size: 100px;
+	padding: 10px
+	
 }
 ul li#you{
-	background: url(../imagens/icone-you.png);
+	background: url(../imagens/icone-you.png) no-repeat;
 	width: 100px;
 	height: 100px;
 	background-position: 50% 50%;
 	background-size: 100px;
+	padding: 10px;
+	
 }
 ul li#spot{
-background: url(../imagens/icone-spot.png);
+background: url(../imagens/icone-spot.png) no-repeat;
 width: 100px;
 height: 100px;
 background-position: 50% 50%;
 background-size: 100px;
+padding: 10px;
 }
 ul span {
 	opacity: 0;
@@ -119,4 +131,105 @@ ul li {
 	float: left;
 	margin-left: 80px;
 	list-style: none;
+}
+/* Formatação do album de fotos */
+
+ul#album-fotos {
+	width: 750px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;
+}
+ul#album-fotos li {
+	float: right;
+	width: 300px;
+	height: 300px;
+	margin: 20px;
+	border: 5px solid gray;
+	background-color: black;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+	-webkit-transition: all 0.2s ease-in;
+
+}
+
+ul#album-fotos li span {
+	opacity: 0;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	background-color: rgba(0, 0, 0, 0.3);
+	font-size: 13pt;
+	line-height: 50px;
+	padding: 5px;
+}
+
+ul#album-fotos li:hover {
+	-webkit-transform: scale(1.2);
+}
+
+ul#album-fotos li:hover span {
+	opacity: 1;
+}
+
+/* Formatação das fotos */
+
+ul#album-fotos li#foto1 {
+	background: url(../imagens/foto-1.jpg) no-repeat;
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: gray;
+}
+ul#album-fotos li#foto2 {
+	background: url(../imagens/foto-2.jpg) no-repeat;
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: gray;
+}
+ul#album-fotos li#foto3 {
+	background: url(../imagens/foto-3.jpg) no-repeat;
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: gray;
+}
+ul#album-fotos li#foto4 {
+	background: url(../imagens/foto-4.jpg) no-repeat;
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: gray;
+}
+ul#album-fotos li#foto5 {
+	background: url(../imagens/foto-5.jpg) no-repeat;
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: gray;
+}
+ul#album-fotos li#foto6 {
+	background: url(../imagens/foto-6.jpg) no-repeat;
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: gray;
+}
+ul#album-fotos li#foto7 {
+	background: url(../imagens/foto-7.jpg) no-repeat;
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: gray;
+}
+ul#album-fotos li#foto8 {
+	background: url(../imagens/foto-8.jpg) no-repeat;
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: gray;
+}
+ul#album-fotos li#foto9 {
+	background: url(../imagens/foto-9.jpg) no-repeat;
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: gray;
+}
+ul#album-fotos li#foto10 {
+	background: url(../imagens/foto-10.jpg) no-repeat;
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: gray;
 }
